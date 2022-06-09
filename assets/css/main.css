@@ -1,0 +1,80 @@
+.nav-link{
+    font-size: 20px;
+    border: 3px solid transparent;   
+}
+.active{
+    border-bottom: 3px solid #a53d58;
+    font-weight: bold;   
+}
+.nav-link:hover{
+    border-bottom: 3px solid #a53d58;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.land p{
+    color: darkgrey;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.land h1{
+    color: darkslateblue;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+.land h3{
+    text-align: center;
+}
+.land .Signup{
+    background-color: crimson;
+    color: white;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+.Signup:hover{
+    transform: scale(1.2);
+}
+.text{
+    margin-top: -30px;
+}
+/*registration Page*/
+            .register h1{
+                color: darkslateblue;
+            }
+            .register p{
+                color: gray;
+            }
+            .register p a{
+                text-decoration: none;
+                font-weight: bold;
+                color: black;
+            }
+            .join{
+                background-color: darkslateblue;
+                color: white;
+                transition: transform .2s;
+            }
+            .join:hover{
+                color: white;
+                transform: scale(1.1);
+            }
+            .Forgot a{
+               justify-content: flex-end;
+                display: flex;
+                text-decoration: none;
+            }
+            .profile{
+                border-radius: 50%;
+            }
+            .list{
+                height: 400px;
+                width: 100%;
+                overflow: auto;
+            }
+            .list-1{
+                width: 100%;
+            }
+            .list::-webkit-scrollbar{
+                width: 0px;
+            }
