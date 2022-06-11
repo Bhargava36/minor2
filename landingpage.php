@@ -10,7 +10,7 @@
             In need of blood ?
         </h1>
         <div class="d-flex mt-4 justify-content-center">
-        <a href="Registration.html" class="btn Signup px-4 py-2" target="_blank" rel="noopener noreferrer"> Signup</a>
+        <a href="#" onclick="ajaxRegisterPageCall()" class="btn Signup px-4 py-2"  rel="noopener noreferrer"> Signup</a>
         </div>
         </div>
     </div>
