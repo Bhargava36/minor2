@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 10, 2022 at 07:01 PM
+-- Generation Time: Jun 11, 2022 at 04:43 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -35,8 +35,8 @@ CREATE TABLE `users` (
   `bloodGroup` varchar(25) DEFAULT NULL,
   `doB` varchar(25) DEFAULT NULL,
   `gender` varchar(25) DEFAULT NULL,
-  `phoneNo` int(25) DEFAULT NULL,
-  `district` int(25) DEFAULT NULL,
+  `phoneNo` varchar(250) DEFAULT NULL,
+  `district` varchar(25) DEFAULT NULL,
   `image` varchar(256) NOT NULL,
   `status` int(12) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -46,7 +46,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`slNo`, `fullName`, `email`, `password`, `bloodGroup`, `doB`, `gender`, `phoneNo`, `district`, `image`, `status`) VALUES
-(1, 'Ashok Varma', 'ashokbevara999@gmail.com', '7815696ecbf1c96e6894b779456d330e', NULL, NULL, NULL, NULL, NULL, 'ashok varma_profile.jpg', 1);
+(1, 'Ashok Varma', 'ashokbevara999@gmail.com', '7815696ecbf1c96e6894b779456d330e', 'B +', '2002-10-26', 'Male', '9391387765', 'Srikakulam', 'ashok varma_profile.jpg', 2),
+(2, 'ASHOK VARMA BEVARA', 'mrfailure1026@gmail.com', '912ec803b2ce49e4a541068d495ab570', 'A +', '2022-06-23', 'Male', '9440583461', 'Karimnagar', 'ashok varma bevara_profile.png', 2);
 
 --
 -- Indexes for dumped tables
@@ -66,7 +67,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `slNo` int(22) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `slNo` int(22) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
