@@ -20,14 +20,14 @@ $row=mysqli_fetch_array($user);
               <div class="col-md-9 border ">
                   <div class="row border border-end-0 border-top-0 border-start-0">
                       <div class="col-md-6">
-                          <h1 class="text-center mt-4">In Need of blood ?</h1>
+                          <h2 class="text-center mt-4">In Need of blood ?</h2>
                              
                           <div class="row px-3 mt-4 ">
                             <a href="#" onclick="searchBlood()" class="btn col-md-6 mx-auto join mb-4 " type="button">Find Blood</a>
                           </div>
                       </div>
                       <div class="col-md-6">
-                        <h1 class="text-center mt-4">Ready To Donate Blood ?</h1>
+                        <h2 class="text-center donate mt-4">Ready To Donate Blood ?</h2>
                              
                         <div class="mt-4 row px-3">
                           <a href="#"  onclick="registerBlood()" class="btn col-md-6 mx-auto join mb-4 ">Register To Donate</a>

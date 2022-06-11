@@ -11,6 +11,13 @@
 }
 body{
     font-family: 'Times New Roman', Times, serif;
+
+}
+body:-webkit-scrollbar{
+    width: 0px;
+}
+.donate{
+    color: darkslateblue;
 }
 .land p{
     color: darkgrey;
@@ -23,6 +30,7 @@ body{
     text-align: center;
     font-weight: bold;
 }
+
 .land h3{
     text-align: center;
 }

@@ -18,7 +18,18 @@ else
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Main css-->
     <link rel="stylesheet" href="./../assets/css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <title>Document</title>
+    <style>
+      h2{
+        color:darkslateblue;
+        font-size:2rem;
+      }
+      body::-webkit-crollbar{
+        width:0px;
+      }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white shadow-sm">
@@ -27,7 +38,7 @@ else
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse d-md-flex justify-content-end navbar-collapse" id="navbarSupportedContent">
+          <!--<div class="collapse d-md-flex justify-content-end navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2">
               <li class="nav-item mx-2">
                 <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -41,7 +52,7 @@ else
               
             </ul>
             
-          </div>
+          </div>-->
         </div>
       </nav>
       <div class="container register pt-5 mt-5 account-content">
