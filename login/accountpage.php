@@ -17,24 +17,24 @@ $row=mysqli_fetch_array($user);
                     
                   </div>
               </div>
-              <div class="col-md-9 border blood-content">
+              <div class="col-md-9 border ">
                   <div class="row border border-end-0 border-top-0 border-start-0">
                       <div class="col-md-6">
                           <h1 class="text-center mt-4">In Need of blood ?</h1>
                              
                           <div class="row px-3 mt-4 ">
-                            <a href="findbloodpage.html" class="btn col-md-6 mx-auto join mb-4 " type="button">Find Blood</a>
+                            <a href="#" onclick="searchBlood()" class="btn col-md-6 mx-auto join mb-4 " type="button">Find Blood</a>
                           </div>
                       </div>
                       <div class="col-md-6">
                         <h1 class="text-center mt-4">Ready To Donate Blood ?</h1>
                              
                         <div class="mt-4 row px-3">
-                          <a href="BloodRegistration.html" class="btn col-md-6 mx-auto join mb-4 ">Register To Donate</a>
+                          <a href="#"  onclick="registerBlood()" class="btn col-md-6 mx-auto join mb-4 ">Register To Donate</a>
                         </div>
                       </div>
                   </div>
-                  <div class="col-md-6 d-flex justify-content-center mx-auto">
+                  <div class="col-md-12 d-flex justify-content-center mx-auto blood-content ">
                       <img src="./../assets/images/Hopital1.png" width="100%">
                   </div>
               </div>
