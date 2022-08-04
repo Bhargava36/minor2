@@ -87,3 +87,6 @@ body:-webkit-scrollbar{
             .list::-webkit-scrollbar{
                 width: 0px;
             }
+            *::-webkit-scrollbar{
+                width: 0px;
+            }

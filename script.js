@@ -44,6 +44,16 @@ function ajaxRegisterPageCall() {
       },
     });
   }
+  //forgotpassword page call
+  function ajaxForgotPageCall(){
+    $.ajax({
+      url: './forgotpassword.php',
+      success: function (response) {
+        $('.main-content').html(response);
+      },
+    });
+  }
+  
   // Account  Page Call
 function ajaxaccountPageCall() {
   $.ajax({

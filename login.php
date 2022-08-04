@@ -15,11 +15,11 @@
               </div>
               <div class="mb-3">
                 <label for="Password" class="form-label fw-bold">Enter your password</label>
-                <input type="text" class="form-control" name="userPassword" id="userPassword" placeholder="Create Password">
+                <input type="password" class="form-control" name="userPassword" id="userPassword" placeholder="Enter your Password">
               </div>
               <div class="mb-3 Forgot">
                   <div class="login-response text-danger"></div>
-                  <a href="#"class="">Forgot password?</a>
+                  <a href="#"class="" onclick="ajaxForgotPageCall()">Forgot password?</a>
               </div>
              
               <div class="d-grid mt-5 gap-2">

@@ -20,11 +20,11 @@
                           </div>
                           <div class="mb-3">
                             <label for="Password" class="form-label fw-bold">Create password</label>
-                            <input type="text" class="form-control" name="password" id="password" placeholder="Create Password">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Create Password">
                           </div>
                           <div class="mb-3">
                             <label for="Password" class="form-label fw-bold">Confirm password</label>
-                            <input type="text" class="form-control" name="confirmPassword" id="confirmPassword" placeholder="Re-enter Password">
+                            <input type="password" class="form-control" name="confirmPassword" id="confirmPassword" placeholder="Re-enter Password">
                           </div>
                           <div class="text-danger fw-bold Registring-response"></div>
                           <div class="d-grid mt-5 gap-2">
