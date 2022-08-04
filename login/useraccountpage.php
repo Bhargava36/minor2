@@ -21,6 +21,9 @@ else
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <title>Blood Bank</title>
+    <link rel="icon" href="./../assets/images/logo.png">
+     <!--Data aos-->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
       h2{
         color:darkslateblue;
@@ -32,7 +35,7 @@ else
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white shadow-sm">
+    <nav data-aos="slide-down" data-aos-duration="1000" data-aos-delay="300" class="navbar navbar-expand-md fixed-top navbar-light bg-white shadow-sm">
         <div class="container-fluid px-md-5">
           <a class="navbar-brand  " href="#"><img  src="./../assets/images/logo.png" height="70px" width="70px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,6 +74,10 @@ else
             ajaxaccountPageCall();
 			});
       </script>
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
 <?php }?>

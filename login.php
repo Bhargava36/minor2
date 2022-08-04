@@ -1,6 +1,6 @@
 
 <div class="row">
-  <div class="col-md-6 mt-md-5 pt-3">
+  <div data-aos="slide-up" data-aos-delay="500" data-aos-duration="1000"  class="col-md-6 mt-md-5 pt-3">
       <div>
         <h1 class="mt-5 text-center">
             Welcome Back!
@@ -32,7 +32,7 @@
   </div>
   <div class="col-md-6 align-items-center d-flex">
       <div>
-          <img src="./assets/images/Hopital1.png" width="100%" height="100%" alt="">
+          <img data-aos="slide-down" data-aos-delay="500" data-aos-duration="1000" src="./assets/images/Hopital1.png" width="100%" height="100%" alt="">
           <p class="text-center">You don't have to somebody's family to donate blood</p>
           </div>
   </div>

@@ -219,7 +219,7 @@ if(isset($_POST['donarList']) && isset($_POST['filterDistrict']) && isset($_POST
             <tr class="py-3">
               <td><?php echo htmlentities($row['fullName']) ?></td>
               <td><?php echo htmlentities($row['bloodGroup']) ?></td>
-              <td><?php echo htmlentities($row['phoneNo']) ?></td>
+              <td><a href="tel:$row['phoneNo']" class="btn"><?php echo htmlentities($row['phoneNo']) ?></a></td>
               <td><?php echo htmlentities($row['district']) ?></td>
             </tr>
       <?php } 

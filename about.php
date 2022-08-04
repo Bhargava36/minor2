@@ -7,9 +7,9 @@
 
 <div class="container mt-5 pt-5">
     <div class="row ">
-        <h1 class="text-center">About</h1>
+        <h1 data-aos="slide-up" data-aos-delay="500" data-aos-duration="1000" class="text-center">About</h1>
         <div class="col-md-7 ">
-            <p class="mt-5">
+            <p class="mt-5" data-aos="slide-right" data-aos-delay="500" data-aos-duration="1000">
             This project is aimed to developing an online Blood Donation Information. The entire project has been 
 developed keeping in view of the distributed client server computing technology, in mind. The Blood 
 Donation Agent is to create an e-Information about the donor and organization that are related to 
@@ -20,7 +20,7 @@ of this site
             </p>
         </div>
         <div class="col-md-5">
-            <img src="./assets/images/Register.png" alt="" width="100%">
+            <img data-aos="slide-left" data-aos-delay="500" data-aos-duration="1000" src="./assets/images/Register.png" alt="" width="100%">
         </div>
     </div>
 </div>
