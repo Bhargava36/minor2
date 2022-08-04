@@ -14,7 +14,10 @@ $row=mysqli_fetch_array($user);
                    <h2 class="text-center mt-4"><?php echo htmlentities($row['fullName']) ?></h2>
                    <div class="d-grid mt-4 gap-2">
                     <a class="btn btn-info mb-3 " type="button" href="../logout.php">Logout</a>
-                    
+                    <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" <?php if($row['status']=='2'){echo htmlentities("checked");} ?> onchange="updatestatus()" >
+                          <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                    </div>
                   </div>
               </div>
               <div class="col-md-9 border " data-aos="slide-left" data-aos-duration="1200" data-aos-delay="300">

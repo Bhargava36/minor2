@@ -225,8 +225,25 @@ if(isset($_POST['donarList']) && isset($_POST['filterDistrict']) && isset($_POST
       <?php } 
           }else{ ?>
             <tr class="py-3">
-              <td>NO Donars Found</td>
+              <td>No Donars Found</td>
             </tr>
          <?php }   
-         echo "asdfhsjdf";        
+               
+}
+
+if(isset($_POST['updatestatus'])){
+  $quer=mysqli_query($conn,"SELECT * FROM `users` WHERE `email`= '$active_user'");
+  if(mysqli_num_rows($quer)>0){
+    $row=mysqli_fetch_array($quer);
+    if($row['status']=='1'){
+      $sql="UPDATE `users` SET `status` = '2' WHERE `email`= '$active_user'";
+
+    }else if($row['status']=='2'){
+      $sql="UPDATE `users` SET `status` = '1' WHERE `email`= '$active_user'";
+    }else{
+      echo "Error Occured !!!Contact Mr.Ashok";
+    }
+    $query=mysqli_query($conn,$sql);
+  }
+  
 }

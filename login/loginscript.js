@@ -69,3 +69,19 @@ function donarsList(){
       },
     });
 }  
+
+//status change
+function updatestatus(){
+  var formData = {
+    updatestatus : 'updatestatus',
+  }
+  $.ajax({
+    type: 'POST',
+    url: './loginbackscript.php',
+    data: formData,
+    success: function () {
+      searchBlood();
+      
+    },
+  });
+}
