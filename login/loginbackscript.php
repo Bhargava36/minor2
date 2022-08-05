@@ -67,7 +67,7 @@ if(isset($_POST['sBlood'])){
         </div>
     </div>
     <div class="col-md-12 mt-5 d-flex  list justify-content-center mx-auto">
-      <table class="table table-striped table-hover">
+      <table class="table table-hover">
           <thead>
             <tr class="py-3">
               <th scope="col">Name</th>
@@ -93,7 +93,7 @@ if(isset($_POST['rBlood'])){
              Registration Form !
           </h1>                   
       <div class="row mt-4 justify-content-center">
-          <form id="donarUpdateForm" class="col-md-8">
+          <form id="donarUpdateForm" class="col-md-10">
               <div class="mb-3">
                       <label for="Email" class="form-label fw-bold">Select Blood Group :</label>
                       <select class="form-select" name="bgroup" id="bgroup" aria-label="Default select example">
@@ -171,7 +171,7 @@ if(isset($_POST['rBlood'])){
               <div class="text-danger donarUpdate-response"></div>
               </div>
                 <div class="d-grid mt-5 gap-2">'; ?>
-                  <button class="btn join" onclick="updateDonar()" type="button">Register</button>
+                  <button class="btn join mb-5" onclick="updateDonar()" type="button">Register</button>
                   <?php echo '<p class="text-center">By joining, you agree to the <span class="fw-bold">terms</span> and  <span class="fw-bold">privacy policy</span></p>
                 </div>
           </form>
@@ -216,7 +216,7 @@ if(isset($_POST['donarList']) && isset($_POST['filterDistrict']) && isset($_POST
   }
           if(mysqli_num_rows($donars)>0){
             while($row=mysqli_fetch_array($donars)){?>
-            <tr class="py-3">
+            <tr class="py-3" style="height:50px;">
               <td><?php echo htmlentities($row['fullName']) ?></td>
               <td><?php echo htmlentities($row['bloodGroup']) ?></td>
               <td><a href="tel:$row['phoneNo']" class="btn"><?php echo htmlentities($row['phoneNo']) ?></a></td>
@@ -224,8 +224,8 @@ if(isset($_POST['donarList']) && isset($_POST['filterDistrict']) && isset($_POST
             </tr>
       <?php } 
           }else{ ?>
-            <tr class="py-3">
-              <td>No Donars Found</td>
+            <tr class="py-3 align-items-center">
+              <td colspan=4 class="text-center display-4 text-danger bg-white">No Donars Found</td>
             </tr>
          <?php }   
                

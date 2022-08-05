@@ -19,7 +19,7 @@
               </div>
               <div class="mb-3 Forgot">
                   <div class="login-response text-danger"></div>
-                  <a href="#"class="" onclick="ajaxForgotPageCall()">Forgot password?</a>
+                 <!-- <a href="#"class="" onclick="ajaxForgotPageCall()">Forgot password?</a>-->
               </div>
              
               <div class="d-grid mt-5 gap-2">

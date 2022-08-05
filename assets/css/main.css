@@ -81,6 +81,9 @@ body:-webkit-scrollbar{
                 width: 100%;
                 overflow: auto;
             }
+            tr{
+                height:45px !important;
+            }
             .list-1{
                 width: 100%;
             }
@@ -89,4 +92,11 @@ body:-webkit-scrollbar{
             }
             *::-webkit-scrollbar{
                 width: 0px;
+            }
+            .yn{
+                font-size: 35px !important;
+            }
+            .check{
+                height: 35px;
+                width: 80px !important;
             }
